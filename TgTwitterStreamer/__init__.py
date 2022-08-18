@@ -48,8 +48,9 @@ TRACK_WORDS = None
 
 
 CUSTOM_FORMAT = """
-🔥 <b>Send by: <a href='{SENDER_PROFILE}'>{SENDER}</a></b> 🔥
+🔥 <b>Tipster <a href='{SENDER_PROFILE}'>{SENDER}</a></b>
 {REPLY_TAG}
+💵 1un. (2.00%)
 {TWEET_TEXT}
 """
 
