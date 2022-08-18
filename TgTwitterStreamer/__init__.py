@@ -48,11 +48,9 @@ TRACK_WORDS = None
 
 
 CUSTOM_FORMAT = """
-🎊 <b><a href='{SENDER_PROFILE}'>{SENDER}</a></b> :
+🔥 <b>Send by: <a href='{SENDER_PROFILE}'>{SENDER}</a></b> 🔥
 {REPLY_TAG}
-🍿 {TWEET_TEXT}
-
-• Powered by <b><a href="{_REPO_LINK}">TgTwitterStreamer</a></b>
+{TWEET_TEXT}
 """
 
 

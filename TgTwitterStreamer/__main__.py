@@ -52,8 +52,11 @@ def make_rules() -> str:
         rule += " (" + " OR ".join(TRACK_WORDS) + ")"
     if Var.EXCLUDE:
         rule += " -".join(Var.EXCLUDE)
+    if Var.MUST_INCLUDE:
+        rule += "".join(Var.MUST_INCLUDE)
     if Var.LANGUAGES:
         rule += " (" + " OR ".join(f"lang:{lang}" for lang in Var.LANGUAGES) + ")"
+    print(rule)
     return rule
 
 
